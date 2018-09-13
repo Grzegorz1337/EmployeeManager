@@ -1,0 +1,140 @@
+#canvas
+{
+    -fx-background-color: #DDD;
+}
+#canvas #logo
+{
+    -fx-background-image: url("logo.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 140,140;
+    -fx-background-position: center center;
+}
+
+
+#leftButtonsPanel .button
+{
+    -fx-background-color:#06f;
+        -fx-background-radius: 2, 1;
+        -fx-background-insets: 2, 3;
+        -fx-text-fill: white;
+   -fx-font-size:16;
+    -fx-font-family: Calibri;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+
+#leftButtonsPanel .button:hover
+{
+    -fx-text-fill: black;
+    -fx-border-color: linear-gradient(white 10%,#06f 90%);
+    -fx-border-width: 2;
+}
+#leftButtonsPanel .button:pressed
+{
+    -fx-border-color: linear-gradient(#06f, white);
+    -fx-text-fill: black;
+    -fx-border-width: 1;
+}
+
+#content{
+    -fx-background-color: white;
+    -fx-padding: 20,20,20,20;
+    -fx-font-size: 14;
+}
+
+#projectName
+{
+    -fx-padding: 0,10,10,10;
+    -fx-font-size: 14;
+    -fx-start-margin: 40;
+}
+
+#projectName .Label
+{
+    -fx-background-color: green;
+}
+
+#addField
+{
+    -fx-text-alignment: right;
+    -fx-font-size: 18;
+}
+
+#addEmployee .button
+{
+    -fx-background-color:#06f;
+    -fx-background-radius: 2, 1;
+    -fx-background-insets: 2, 3;
+    -fx-text-fill: white;
+    -fx-font-size:16;
+    -fx-font-family: Calibri;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+
+#addEmployee .button:hover
+{
+    -fx-text-fill: black;
+    -fx-border-color: linear-gradient(white 10%,#06f 90%);
+    -fx-border-width: 2;
+}
+#addEmployee .button:pressed
+{
+    -fx-border-color: linear-gradient(#06f, white);
+    -fx-text-fill: black;
+    -fx-border-width: 1;
+}
+
+#addClient .button
+{
+    -fx-background-color:#06f;
+    -fx-background-radius: 2, 1;
+    -fx-background-insets: 2, 3;
+    -fx-text-fill: white;
+    -fx-font-size:16;
+    -fx-font-family: Calibri;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+
+#addClient .button:hover
+{
+    -fx-text-fill: black;
+    -fx-border-color: linear-gradient(white 10%,#06f 90%);
+    -fx-border-width: 2;
+}
+#addClient .button:pressed
+{
+    -fx-border-color: linear-gradient(#06f, white);
+    -fx-text-fill: black;
+    -fx-border-width: 1;
+}
+
+#addProject .button
+{
+    -fx-background-color:#06f;
+    -fx-background-radius: 2, 1;
+    -fx-background-insets: 2, 3;
+    -fx-text-fill: white;
+    -fx-font-size:16;
+    -fx-font-family: Calibri;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+
+#addProject .button:hover
+{
+    -fx-text-fill: black;
+    -fx-border-color: linear-gradient(white 10%,#06f 90%);
+    -fx-border-width: 2;
+}
+#addProject .button:pressed
+{
+    -fx-border-color: linear-gradient(#06f, white);
+    -fx-text-fill: black;
+    -fx-border-width: 1;
+}
